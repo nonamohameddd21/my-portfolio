@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نيرمين مشالي | البورتفوليو الشخصي</title>
+    <!-- Bootstrap 5 RTL CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Cairo Font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section (قسم الخلفية الرئيسي) -->
+    <section class="hero-section">
+        <div class="overlay"></div>
+        <div class="container hero-content text-white">
+            <p class="lead mb-1 fw-bold">مرحباً، أنا</p>
+            <h1 class="display-3 fw-bolder mb-3">نيرمين مشالي</h1>
+            <h3 class="h4 mb-3 fw-bold text-light">طالبة حاسبات ونظم المعلومات</h3>
+            
+            <p class="hero-description text-light mb-4">
+                شغوفة بتطوير الويب وتصميم واجهات المستخدم. أسعى لبناء مواقع حديثة ومتجاوبة باستخدام HTML و CSS و Bootstrap.
+            </p>
+
+            <!-- Buttons (الأزرار) -->
+            <div class="d-flex gap-3 mb-4 flex-wrap">
+                <a href="#projects" class="btn btn-outline-light btn-lg px-4">شاهد أعمالي</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg px-4">تواصل معي</a>
+            </div>
+
+            <!-- Social Icons (أيقونات التواصل) -->
+            <div class="social-icons d-flex gap-3 fs-4">
+                <a href="mailto:your.email@example.com" class="text-white"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="text-white"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/nonamohameddd21" target="_blank" class="text-white"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (قسم نبذة عني) -->
+    <section id="about" class="py-5 bg-white text-dark">
+        <div class="container py-4 text-center">
+            <h2 class="fw-bold mb-4">نبذة عني</h2>
+            <p class="lead mx-auto text-muted mb-5" style="max-width: 800px;">
+                طالبة في كلية حاسبات ونظم المعلومات، شغوفة بتطوير الويب وتصميم واجهات المستخدم. أسعى دائماً لتعلم كل جديد في مجال التقنية، وبناء مواقع حديثة تجمع بين الجمال والوظيفة.
+            </p>
+
+            <!-- Statistics (الإحصائيات) -->
+            <div class="row g-4 justify-content-center text-center">
+                <div class="col-6 col-md-3">
+                    <h3 class="display-5 fw-bold text-dark">+10</h3>
+                    <p class="text-muted fw-bold">مشاريع</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h3 class="display-5 fw-bold text-dark">+2</h3>
+                    <p class="text-muted fw-bold">سنوات خبرة</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-item">
+                        <h3 class="display-5 fw-bold text-dark">+5</h3>
+                        <p class="text-muted fw-bold">شهادات</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
